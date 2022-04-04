@@ -4,7 +4,7 @@ async function main() {
     const HelloWorld = await ethers.getContractFactory("HelloWorld");
 
     const hello_world = await HelloWorld.deploy("Hello World!");
-    console.log(`Contract was deployed to: 0x${hello_world.address}`)
+    console.log(`Contract was deployed to: ${hello_world.address}`)
 }   
 
 main()

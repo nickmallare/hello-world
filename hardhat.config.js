@@ -6,7 +6,6 @@ require("@nomiclabs/hardhat-ethers");
 
 const API_URL = process.env.API_URL;
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
-console.log(PRIVATE_KEY + "helllo");
 
 module.exports = {
   solidity: "0.7.3",
